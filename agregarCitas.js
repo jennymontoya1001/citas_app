@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const agregarCitas = () => {
+export const AgregarCitas = () => {
     return (
         <div>
             <div className="card mt-5">
@@ -8,7 +8,7 @@ export const agregarCitas = () => {
                     <form>
                         <h1>
                             Agregar Citas
-                </h1>
+                        </h1>
                         <hr />
 
                         <div className="orm-group row">
@@ -43,8 +43,7 @@ export const agregarCitas = () => {
                                     type="time"
                                     name="hora"
                                     className="form-control"
-                                    autoComplete="off"
-                                  
+                                    autoComplete="off"         
                                 />
                             </div>
                         </div>
